@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  POSTGRES_HOST: monolithdb.cxeiol5xg9em.us-west-2.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: mono-840480381347-dev
+  AWS_REGION: us-west-2
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: http://a9c55982040524fafbaed3aad83249b8-894734148.us-west-2.elb.amazonaws.com/
+metadata:
+  name: env-config
